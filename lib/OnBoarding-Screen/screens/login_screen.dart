@@ -126,15 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   onSubmitted: (_) => _handleLogin(),
                 ),
                 
-                const SizedBox(height: 8),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    'Trạng thái: Lưu Token', // As per wireframe text
-                    style: TextStyle(color: Colors.purple.shade300, fontSize: 12),
-                  ),
-                ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 48),
 
                 // Gradient Login Button
                 Container(

@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // Developer handoff:
     // Material Color: Primary Purple, Surface White, On-Surface Black
     return Scaffold(
-      backgroundColor: const Color(0xFF1A1A1A), // Dark background as per wireframe
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 100,
               height: 100,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: Colors.purple.shade50,
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(

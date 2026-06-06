@@ -34,19 +34,19 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 24),
             const Text(
               'Chào mừng bạn!',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 12),
-            const Text(
-              'Bạn đã hoàn thành quá trình\nĐăng nhập và Tìm hiểu tính năng.',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 16,
-                color: Colors.black54,
-                height: 1.5,
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 32.0),
+              child: Text(
+                'Bạn đã hoàn thành quá trình Đăng nhập và Tìm hiểu tính năng.\n\nBây giờ bạn có thể bắt đầu sử dụng đầy đủ các tiện ích tuyệt vời của ứng dụng.',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.black54,
+                  height: 1.6,
+                ),
               ),
             ),
             const SizedBox(height: 40),
@@ -64,12 +64,15 @@ class HomeScreen extends StatelessWidget {
                 backgroundColor: Colors.white,
                 foregroundColor: Colors.redAccent,
                 side: const BorderSide(color: Colors.redAccent),
-                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 24,
+                  vertical: 12,
+                ),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
