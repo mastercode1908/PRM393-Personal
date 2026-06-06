@@ -289,7 +289,7 @@ class _ResponsiveGenreScreenState extends State<ResponsiveGenreScreen> {
                       ),
                     ],
                   ),
-                  const Spacer(),
+                  const SizedBox(height: 8),
                   
                   // Show at most 2 genres to fit nicely
                   Text(
